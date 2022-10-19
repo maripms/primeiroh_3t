@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro H</title>
     <script src="estudo.js"></script>
-    
+    <link rel="stylesheet" href="geral.css">
 </head>
 <body>
-    
-   Valor: <input id="valor" type="text"><br>
+<div class="calculadora">
+    Valor: <input id="valor" type="text"><br>
    Juros: <input id="juros" type="text"><br>
    Meses: <input id="mes" type="text"><br>
-   <button onclick="total()">Enviar</button>
+   <button id="btnCalc" onclick="total()">Enviar</button>
+</div>
+   
    <br><br><br><br><br>
    <span id="resultado"></span><br>
    Nota 1: <input id="n1" type="text"><br>
