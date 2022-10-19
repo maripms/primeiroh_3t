@@ -38,14 +38,20 @@ function total(){
 
      if (!Number(valor)){
          alert("O valor deve ser um número.");
+         document.getElementById("valor").value = "";
+         document.getElementById("valor").focus();
          return
 }
 if (!Number(mes)){
     alert("O mes deve ser um número.");
+    document.getElementById("mes").value = "";
+    document.getElementById("mes").focus();
     return
 }
 if (!Number(juros)){
     alert("O juros deve ser um número.");
+    document.getElementById("juros").value = "";
+    document.getElementById("juros").focus();
     return
 }
 
