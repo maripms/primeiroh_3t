@@ -1,11 +1,19 @@
 .calculadora {
     padding: 10px;
-    background: rgb(255, 104, 255);
+    background: rgb(129, 255, 104);
     width: 200px;
     border-radius: 20px;
     box-shadow: 5px 2px yellow;
     text-align: center;
-}b
+}
+.calculadoraRaiz {
+    padding: 10px;
+    background: rgb(38, 255, 165);
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px;
+}
 .listaMensal {
     padding: 10px;
     background: rgb(233, 183, 183);
@@ -33,7 +41,7 @@
 
 #btnCalc {
     padding: 5px;
-    background: rgb(79, 148, 88);
+    background: rgb(83, 123, 255);
     margin-top: 15px;
     border: none;
     border-radius: 10px;
@@ -43,4 +51,13 @@
     background: rgb(44, 53, 45);
     color: white;
     cursor: pointer;
+}
+.calcF {
+    display: none;
+}
+#calcFin {
+    display: none;
+}
+#calcFin:checked + .calculadora .calcF {
+    display: block;
 }
