@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="geral.css">
 </head>
 <body>
+    <input type="checkbox" name="" id="calcFin">
+    <div class ="calculadora">
+        <label for="calcFin"><h3>Financeira</h3></label>
+        <div class="calcF">
    <div class="calculadora">
 
     <div class="spResul">
@@ -24,21 +28,23 @@
 <div class="listaMensal">
     <span id="meses">Mês a Mês</span>
 </div>
-   
-    <div class ="calculadora">
+<input type="checkbox" name="" id="calcESG">
+    <div class ="calculadoraRaiz">
+        <label for="calcESG"><h3>Equação<br>Segundo Grau</h3></label>
+        <div class="calcF">
+   <div class="calculadora">
 
-        Digite o valor de a: <input id="a" type="text">
-        Digite o valor de b: <input id="b" type="text">
-        Digite o valor de c: <input id="c" type="text">
-
-        <button id="btnCalc" onclick="total()">Enviar</button>
-    
-        <div class="spRais">
-            <span id="raiz"></span>
-
-        </div>
-
+    <div class="spRaiz">
+        <span id="raiz">Total: 0,00</span><br>
     </div>
-    
+
+    a: <input id="a" type="text"><br>
+    b: <input id="b" type="text"><br>
+    c: <input id="c" type="text"><br>
+    <button onclick="calcularRaiz()">calculadoraRaiz</button>
+</div>
+
+
+
 </body>
 </html>
